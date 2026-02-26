@@ -1,16 +1,12 @@
-1. Overview
+# 1. Overview
 
    This project analyzes a dataset of 1,000+ potential bike customers, cleaning and preparing the raw data, performing exploratory analysis with         pivot tables, and building an interactive dashboard to identify buyer patterns. The final Excel file includes fully organized sheets for raw data,    cleaning steps, pivot summaries, and a dashboard suitable for business decision-making.
-
-   This project demonstrates Excel skills including:
-    - Data cleaning
-    - Conditional logic & formula-driven transformations
-    - Pivot Tables (segmentation, aggregation, comparisons)
-    - Dashboard design (charts, slicers, KPI summaries)
+   
 ---
 
-2. Repo Structure
+# 2. Repo Structure
 ```text
+
   excel-bike-buyers-project/
   │
   ├── data/
@@ -22,9 +18,9 @@
   ```
 ---
 
-3. Workbook Structure and Description
+# 3. Workbook Structure and Description
 
-   3.1 bike_buyers (Raw Data)
+   ## 3.1 bike_buyers (Raw Data)
 
    Contains demographic and behavioral variables such as:
     - Marital Status, Gender, Income, Education
@@ -34,56 +30,58 @@
 
     This raw dataset is the foundation for all subsequent cleaning and analysis.
 
-   3.2 Working Sheet (Data Cleaning & Preprocessing)
+
+   ## 3.2 Working Sheet (Data Cleaning & Preprocessing)
   
    This sheet applies all preprocessing steps, including:
+
+1) Recoding categorical fields
+2) Normalizing inconsistent labels
+3) Checking for missing values
+4) Preparing fields for pivot analysis
+5) Creating clean analytical features
+
+Typical Excel skills demonstrated here:
+
+   - IF(), IFS(), VLOOKUP()
+
+   - TRIM(), PROPER() standardization
   
-     1) Recoding categorical fields
-     2) Normalizing inconsistent labels
-     3) Checking for missing values
-     4) Preparing fields for pivot analysis
-     5) Creating clean analytical features
+   - Conditional Formatting
 
-    Typical Excel skills demonstrated here:
+   - Derived metrics for analysis
 
-    - IF(), IFS(), VLOOKUP()
+   ## 3.3 Pivot Table (Exploratory Analysis)
+The pivot table sheet summarizes buyer patterns and uncovers segments such as:
 
-    - TRIM(), PROPER() standardization
-  
-    - Conditional Formatting
+   - Income vs. Purchase Likelihood
 
-    - Derived metrics for analysis
+   - Age group trends
 
-    3.3 Pivot Table (Exploratory Analysis)
-    The pivot table sheet summarizes buyer patterns and uncovers segments such as:
+   - Commute distance effects
 
-     - Income vs. Purchase Likelihood
+   - Regional differences
 
-     - Age group trends
+   - Household structure & car ownership patterns
 
-     - Commute distance effects
+These insights support the dashboard’s visualizations.
 
-     - Regional differences
+   ## 3.4 Dashboard
+   A clean, interactive dashboard including:
 
-     - Household structure & car ownership patterns
+   - Bar & column charts for buyer demographics
 
-     These insights support the dashboard’s visualizations.
+   - Purchase distribution across income, age, and region
 
-     3.4 Dashboard
-     A clean, interactive dashboard including:
+   - Slicers for dynamic filtering
 
-      - Bar & column charts for buyer demographics
+   - Summary indicators for quick interpretation
 
-      - Purchase distribution across income, age, and region
+The dashboard showcases Excel BI capabilities and turns raw data into actionable insight.
 
-      - Slicers for dynamic filtering
-
-      - Summary indicators for quick interpretation
-
-     The dashboard showcases Excel BI capabilities and turns raw data into actionable insight.
 ---
 
-4. Key Insights
+# 4. Key Insights
    - Higher-income groups show significantly stronger purchase rates.
    - Shorter commute distances correlate with higher likelihood of buying a bike.
    - Certain regions (e.g., Pacific) show stronger buyer interest.
@@ -92,14 +90,14 @@
    - Home ownership and car ownership patterns provide additional segmentation.
 ---
 
-5. How to use the file
+# 5. How to use the file
    1) Download Excel Project Dataset.xlsx from the data/ folder.
    2) Open the Dashboard tab to explore interactive visuals.
    3) Use slicers to filter by region, age, marital status, commute distance, etc.
    4) Review Pivot Table and Working Sheet to see the analytical process.
 ---
 
-6. Skills Demonstrated
+# 6. Skills Demonstrated
    - Data cleaning and preprocessing
    - Categorical recodingPivot tables & aggregations
    - Dashboard design
@@ -107,7 +105,7 @@
    - Analytical thinking
 ---
 
-7. Future Improvement
+# 7. Future Improvement
    If expanded, the project could include:
    - Predictive modeling using Python (purchase likelihood)
    - A fully interactive Power BI version
