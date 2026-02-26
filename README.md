@@ -1,83 +1,79 @@
 1. Overview
 This project analyzes a dataset of 1,000+ potential bike customers, cleaning and preparing the raw data, performing exploratory analysis with pivot tables, and building an interactive dashboard to identify buyer patterns. The final Excel file includes fully organized sheets for raw data, cleaning steps, pivot summaries, and a dashboard suitable for business decision-making.
 
-This project demonstrates Excel skills including:
+  This project demonstrates Excel skills including:
 
-- Data cleaning
+    - Data cleaning
 
-- Conditional logic & formula-driven transformations
+    - Conditional logic & formula-driven transformations
 
-- Pivot Tables (segmentation, aggregation, comparisons)
+    - Pivot Tables (segmentation, aggregation, comparisons)
 
-- Dashboard design (charts, slicers, KPI summaries)
+    - Dashboard design (charts, slicers, KPI summaries)
 
 2. Repo Structure
-excel-bike-buyers-project/
-│
-├── data/
-│   └── Excel Project Dataset.xlsx       # Full workbook with raw data, cleaning, pivot tables, dashboard
-│
-├── outputs/ (optional)
-│   └── dashboard_screenshot.png         
-└── README.md
+  excel-bike-buyers-project/
+  │
+  ├── data/
+  │   └── Excel Project Dataset.xlsx       # Full workbook with raw data, cleaning, pivot tables, dashboard
+  │
+  ├── outputs/ (optional)
+  │   └── dashboard_screenshot.png         
+  └── README.md
 
 3. Workbook Structure and Description
-3.1 bike_buyers (Raw Data)
-Contains demographic and behavioral variables such as:
-  - Marital Status, Gender, Income, Education
+  3.1 bike_buyers (Raw Data)
+  Contains demographic and behavioral variables such as:
+    - Marital Status, Gender, Income, Education
+    - Occupation, Home Ownership, Cars Owned
+    - Commute Distance, Region, Age
+    - Purchased Bike (Yes/No)
 
-  - Occupation, Home Ownership, Cars Owned
+  This raw dataset is the foundation for all subsequent cleaning and analysis.
 
-  - Commute Distance, Region, Age
+  3.2 Working Sheet (Data Cleaning & Preprocessing)
+  This sheet applies all preprocessing steps, including:
+    - Recoding categorical fields
+    - Normalizing inconsistent labels
+    - Checking for missing values
+    - Preparing fields for pivot analysis
+    - Creating clean analytical features
 
-  - Purchased Bike (Yes/No)
+  Typical Excel skills demonstrated here:
 
-This raw dataset is the foundation for all subsequent cleaning and analysis.
+    - IF(), IFS(), VLOOKUP()
 
-3.2 Working Sheet (Data Cleaning & Preprocessing)
-This sheet applies all preprocessing steps, including:
+    - TRIM(), PROPER() standardization
 
-  - Recoding categorical fields
-  - Normalizing inconsistent labels
-  - Checking for missing values
-  - Preparing fields for pivot analysis
-  - Creating clean analytical features
+    - Derived metrics for analysis
 
-Typical Excel skills demonstrated here:
+  3.3 Pivot Table (Exploratory Analysis)
+  The pivot table sheet summarizes buyer patterns and uncovers segments such as:
 
-  - IF(), IFS(), VLOOKUP()
+    - Income vs. Purchase Likelihood
 
-  - TRIM(), PROPER() standardization
+    - Age group trends
 
-  - Derived metrics for analysis
+    - Commute distance effects
 
-3.3 Pivot Table (Exploratory Analysis)
-The pivot table sheet summarizes buyer patterns and uncovers segments such as:
+    - Regional differences
 
-  - Income vs. Purchase Likelihood
+    - Household structure & car ownership patterns
 
-  - Age group trends
+  These insights support the dashboard’s visualizations.
 
-  - Commute distance effects
+  3.4 Dashboard
+  A clean, interactive dashboard including:
 
-  - Regional differences
+    - Bar & column charts for buyer demographics
 
-  - Household structure & car ownership patterns
+    - Purchase distribution across income, age, and region
 
-These insights support the dashboard’s visualizations.
+    - Slicers for dynamic filtering
 
-3.4 Dashboard
-A clean, interactive dashboard including:
+    - Summary indicators for quick interpretation
 
-  - Bar & column charts for buyer demographics
-
-  - Purchase distribution across income, age, and region
-
-  - Slicers for dynamic filtering
-
-  - Summary indicators for quick interpretation
-
-The dashboard showcases Excel BI capabilities and turns raw data into actionable insight.
+  The dashboard showcases Excel BI capabilities and turns raw data into actionable insight.
 
 4. Key Insights
    - Higher-income groups show significantly stronger purchase rates.
