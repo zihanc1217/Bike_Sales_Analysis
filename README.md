@@ -22,11 +22,11 @@
 
    ## 3.1 bike_buyers (Raw Data)
 
-   Contains demographic and behavioral variables such as:
-    - Marital Status, Gender, Income, Education
-    - Occupation, Home Ownership, Cars Owned
-    - Commute Distance, Region, Age
-    - Purchased Bike (Yes/No)
+Contains demographic and behavioral variables such as:
+   - Marital Status, Gender, Income, Education
+   - Occupation, Home Ownership, Cars Owned
+   - Commute Distance, Region, Age
+   - Purchased Bike (Yes/No)
 
 This raw dataset is the foundation for all subsequent cleaning and analysis.
 
@@ -37,7 +37,7 @@ This raw dataset is the foundation for all subsequent cleaning and analysis.
 
 1) Recoding categorical fields
 2) Normalizing inconsistent labels
-3) Checking for missing values
+3) Checking for and deleting missing values
 4) Preparing fields for pivot analysis
 5) Creating clean analytical features
 
@@ -62,8 +62,6 @@ The pivot table sheet summarizes buyer patterns and uncovers segments such as:
 
    - Regional differences
 
-   - Household structure & car ownership patterns
-
 These insights support the dashboard’s visualizations.
 
    ## 3.4 Dashboard
@@ -71,11 +69,9 @@ These insights support the dashboard’s visualizations.
 
    - Bar & column charts for buyer demographics
 
-   - Purchase distribution across income, age, and region
+   - Purchase distribution across income, age group, education, and region
 
    - Slicers for dynamic filtering
-
-   - Summary indicators for quick interpretation
 
 The dashboard showcases Excel BI capabilities and turns raw data into actionable insight.
 
@@ -84,10 +80,10 @@ The dashboard showcases Excel BI capabilities and turns raw data into actionable
 # 4. Key Insights
    - Higher-income groups show significantly stronger purchase rates.
    - Shorter commute distances correlate with higher likelihood of buying a bike.
-   - Certain regions (e.g., Pacific) show stronger buyer interest.
+   - Certain regions (e.g., North America) show stronger buyer interest.
    - Customers who are in the Middle Age group show stronger purchase rates.
    - Professionals and skilled workers are more likely to purchase compared to clerical roles.
-   - Home ownership and car ownership patterns provide additional segmentation.
+   - High school students show a higher purchase rate than people in other education background.
 ---
 
 # 5. How to use the file
