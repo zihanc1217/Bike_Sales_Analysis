@@ -28,7 +28,7 @@
     - Commute Distance, Region, Age
     - Purchased Bike (Yes/No)
 
-    This raw dataset is the foundation for all subsequent cleaning and analysis.
+This raw dataset is the foundation for all subsequent cleaning and analysis.
 
 
    ## 3.2 Working Sheet (Data Cleaning & Preprocessing)
